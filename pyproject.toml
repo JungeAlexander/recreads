@@ -12,6 +12,7 @@ python = "^3.9"
 pandas = "^1.2.4"
 gdown = "^3.13.0"
 jupyterlab = "^3.0.16"
+seaborn = "^0.11.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
