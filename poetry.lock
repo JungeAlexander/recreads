@@ -71,7 +71,7 @@ tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pytest"]
 name = "arrow"
 version = "1.1.0"
 description = "Better dates & times for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1255,7 +1255,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "870d4458402d7f0e15b92e7a20a3b2cfd620b98642cb01869a79ccbbd29d1fa5"
+content-hash = "2572ad8aa84039ab85b3d9feddf5a0e6b126bf0600e0906038969ce052a82b92"
 
 [metadata.files]
 altair = [

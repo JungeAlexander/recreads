@@ -9,12 +9,12 @@ license = "MIT"
 python = "^3.9"
 torch = "^1.8.1"
 pandas = "^1.2.4"
+arrow = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 gdown = "^3.13.0"
 jupyterlab = "^3.0.16"
 seaborn = "^0.11.1"
-arrow = "^1.1.0"
 altair = "^4.1.0"
 lux-api = "^0.3.0"
 pre-commit = "^2.13.0"
