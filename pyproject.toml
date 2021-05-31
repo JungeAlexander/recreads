@@ -17,6 +17,7 @@ seaborn = "^0.11.1"
 arrow = "^1.1.0"
 altair = "^4.1.0"
 lux-api = "^0.3.0"
+pre-commit = "^2.13.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
