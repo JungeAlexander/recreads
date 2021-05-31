@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Alexander Junge <alexander.junge@gmail.com>"]
 license = "MIT"
+packages = [
+    { include = "recreads", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
