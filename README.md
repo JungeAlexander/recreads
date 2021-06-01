@@ -3,7 +3,8 @@
 ## Installation
 
 ```
-poetry install --no-root
-poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager
+poetry install
+poetry run jupyter labextension install @jupyter-widgets/jupyterlab-manager  # requires nodejs
 poetry run jupyter labextension install luxwidget
+poetry run pre-commit install
 ```
