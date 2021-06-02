@@ -1,2 +1,3 @@
 __pycache__/
 data/raw/20210527_initial_data_children_biography/*.gz
+data/interim/20210602_initial_data_children_biography_train_dev_test/*.parquet
