@@ -13,6 +13,7 @@ python = "^3.9"
 torch = "^1.8.1"
 pandas = "^1.2.4"
 arrow = "^1.1.0"
+pyarrow = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
 gdown = "^3.13.0"
