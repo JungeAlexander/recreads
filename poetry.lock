@@ -1081,6 +1081,24 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "spotlight"
+version = "0.1.6"
+description = ""
+category = "dev"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.dependencies]
+torch = ">=0.4.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/maciejkula/spotlight.git"
+reference = "master"
+resolved_reference = "75f4c8c55090771b52b88ef1a00f75bb39f9f2a9"
+
+[[package]]
 name = "terminado"
 version = "0.10.0"
 description = "Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
@@ -1266,7 +1284,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "a6c3db62b483d613e1fe794b3a396d9906f0d71cc299a7c6b3d6c1b366bbf283"
+content-hash = "9467d7020d6ae5ee9be3edfd71bab63f012e2f79c50cca24f115037d36506141"
 
 [metadata.files]
 altair = [
@@ -1946,6 +1964,7 @@ sniffio = [
     {file = "sniffio-1.2.0-py3-none-any.whl", hash = "sha256:471b71698eac1c2112a40ce2752bb2f4a4814c22a54a3eed3676bc0f5ca9f663"},
     {file = "sniffio-1.2.0.tar.gz", hash = "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"},
 ]
+spotlight = []
 terminado = [
     {file = "terminado-0.10.0-py3-none-any.whl", hash = "sha256:048ce7b271ad1f94c48130844af1de163e54913b919f8c268c89b36a6d468d7c"},
     {file = "terminado-0.10.0.tar.gz", hash = "sha256:46fd07c9dc7db7321922270d544a1f18eaa7a02fd6cd4438314f27a687cabbea"},
